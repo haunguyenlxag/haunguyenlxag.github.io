@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css">
   <link href="../../assets/css/selectboxit.min-db6170754f9da8de6c95b8093801eb76.css" rel="stylesheet">
-  <link href="../../assets/css/main.min-06a78d344d979d8975269adeab1a88eb.css" rel="stylesheet">
+  <link href="../../assets/css/main.min-5001b744825acf7bbc7afec7604c83d3.css" rel="stylesheet">
   <title>Sunrise - Checkout Page</title>
 </head>
 
@@ -38,16 +38,13 @@
         </div>
       </div>
     </div>
-  </div>  <div class="checkout-shipping">
+  </div>
+  <div class="checkout-shipping">
     <div class="container">
-      <div class="row">
-         		<div class="alert alert-warning">Warning!</div>
-         		<div class="alert alert-success">Success!</div>
-      </div>
       <div class="row">
         <div class="col-md-6">
           <div class="secure-payment">
-              <span><img class="secure-payment-icon" src="../../assets/img/credit-card-lock-9b9e07a3bbc1150a0cfb893d3e1a64dd.png" alt="secure payment"></span>
+              <span><img class="secure-payment-icon" src="../../assets/img/credit-card-lock-e2e7cab01fd93080d88a348dac0ca547.png" alt="secure payment"></span>
               <span class="text-uppercase secure-payment-title">Sicherer Bestellprozess - Versand</span>
           </div>
         </div>
@@ -73,11 +70,29 @@
           <div class="checkout">
             <div class="row">
               <div class="col-sm-7">
-                <form id="form-edit-shipping" method="post" action="">
+                <form method="post" action="">
                   <input type="hidden" name="csrfToken" value="Test123"/>
                   <div class="shipping-method input-block" id="shipping-methods-setting">
                     <div class="text-uppercase shipping-method-title">checkout:shippingForm</div>
-                      <div class="row">
+                      <div class="shipping-method-option">
+                        <label for="shipping-method-0">
+                          <span class="shipping-method-span">
+                            <input id="shipping-method-0" class="shipping-method-radio" type="radio" name="shippingMethodId" value="dhl-standard" checked>
+                            DHL Standard
+                          </span>
+                          <span class="text-uppercase delivery-time">Delivery: 3-5 Days</span>
+                        </label>
+                        <a href=""><span class="pull-right text-uppercase delivery-details">Details ansehen</span></a>
+                      </div>
+                      <div class="shipping-method-option">
+                        <label for="shipping-method-1">
+                          <span class="shipping-method-span">
+                            <input id="shipping-method-1" class="shipping-method-radio" type="radio" name="shippingMethodId" value="dhl-express" >
+                            DHL Express
+                          </span>
+                          <span class="text-uppercase delivery-time">Delivery: Same day</span>
+                        </label>
+                        <a href=""><span class="pull-right text-uppercase delivery-details">Details ansehen</span></a>
                       </div>
                   </div>
                   <div class="row">
@@ -100,7 +115,7 @@
                         <div class="row">
                           <div class="col-xs-4">
                             <div class="order-summary-img">
-                              <img class="img-responsive" src="../../assets/img/blue-jacket-329d4682d1aa7ae44b6519057cc0d17c.jpg" alt="Enditatem Product Name Optional very long line two">
+                              <img class="img-responsive" src="../../assets/img/blue-jacket-8c655360673c6e08c5123722caa605d9.jpg" alt="Enditatem Product Name Optional very long line two">
                             </div>
                           </div>
                           <div class="col-xs-8">
@@ -150,7 +165,7 @@
                         <div class="row">
                           <div class="col-xs-4">
                             <div class="order-summary-img">
-                              <img class="img-responsive" src="../../assets/img/blue-jacket-329d4682d1aa7ae44b6519057cc0d17c.jpg" alt="Enditatem Product Name Optional very long line two">
+                              <img class="img-responsive" src="../../assets/img/blue-jacket-8c655360673c6e08c5123722caa605d9.jpg" alt="Enditatem Product Name Optional very long line two">
                             </div>
                           </div>
                           <div class="col-xs-8">
@@ -200,7 +215,7 @@
                         <div class="row">
                           <div class="col-xs-4">
                             <div class="order-summary-img">
-                              <img class="img-responsive" src="../../assets/img/blue-jacket-329d4682d1aa7ae44b6519057cc0d17c.jpg" alt="Enditatem Product Name Optional very long line two">
+                              <img class="img-responsive" src="../../assets/img/blue-jacket-8c655360673c6e08c5123722caa605d9.jpg" alt="Enditatem Product Name Optional very long line two">
                             </div>
                           </div>
                           <div class="col-xs-8">
@@ -248,20 +263,7 @@
                       </div>
                   </div>
                   <div class="checkout-total-price">
-                    <div class="row">
-                      <div class="col-lg-8 col-md-7 col-sm-7 col-xs-7">
-                        <div class="text-right checkout-promo-code">
-                          <span class="text-uppercase">Gutschein eingelöst</span>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 col-md-5 col-sm-5 col-xs-5">
-                        <div class="text-right checkout-promo-code">
-                          <span class="text-uppercase">Sunrise</span><br>
-                          <span class="text-uppercase">Sunny</span><br>
-                          <span class="text-uppercase">Sunny No</span><br>
-                        </div>
-                      </div>
-                    </div>
+                
                 
                     <div class="row">
                       <div class="col-lg-8 col-md-7 col-sm-7 col-xs-7">
@@ -327,12 +329,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
   <script src="../../assets/js/jquery.ui.touch-punch.min-700b877cd3ade98ce6cd4be349d81a5c.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="../../assets/js/jqzoom.min-59de071919ca0d32f52e04170a95ad45.js"></script>
+  <script src="../../assets/js/jqzoom.min-fb6b29916a977b3db2072fc411794228.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="../../assets/js/animatedModal.min-7345a731ae2c14daa28eaa1a7cf166c5.js"></script>
   <script src="../../assets/js/selectboxit.min-3a414ae410dd205fa8fff2027c297a89.js"></script>
-  <script src="../../assets/js/main.min-57df995deae85071ae59b8d1de6412fe.js"></script>
+  <script src="../../assets/js/main.min-f294c6eeddfcd00912b775d4d4a02ad6.js"></script>
 </body>
 
 </html>

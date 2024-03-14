@@ -11,14 +11,12 @@
   {{> common/header}}
 
   <div class="container">
-    {{> common/messages}}
     <div class="store-finder-title">{{i18n "main:storeLocation.title"}}</div>
-    {{> catalog/reserve/store-list stores=content.stores}}
+    {{> location/store-location list=content.locations.list}}
   </div>
+  {{> location/scripts list=content.locations.list}}
   {{> common/footer}}
   {{> common/htmlscripts}}
-  <script src="{{@root.meta.assetsPath}}js/map-scripts-15648e1f1179a9d4941335f47440d3c4.js"></script>
-
 </body>
 
 </html>

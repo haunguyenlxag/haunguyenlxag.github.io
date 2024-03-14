@@ -55,7 +55,6 @@
 }
 
 #pop-product-list {
-
   @media screen and (min-width: 767px) {
     float: right;
     width: 75%;
@@ -132,9 +131,8 @@
 .facet-count {
   color: $gray;
 }
-li.category-active {
+.category-active {
   font-weight: bold;
-  ul { font-weight: normal; }
 }
 
 // Price slider

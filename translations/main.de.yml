@@ -140,13 +140,11 @@ storeFinder:
 storeLocation:
   title: Store location
   address: Addresse
-  openingTimes: Öffungszeit
-  calculatingTxt: Berechnung...
-  availability:
+  workingHours: Öffungszeit
+  status:
     available: "verfügbar"
     notAvailable: "nicht verfügbar"
     fewItemsLeft: "wenige Artikel"
-  reserve: Reservieren
 faq:
   title: FAQS
   delivery: Versand

@@ -14,17 +14,7 @@
     "guestCheckoutTitle": "Guest Checkout",
     "guestCheckoutParagraph1": "No problem, you do not need to create an account to place an order.",
     "guestCheckoutParagraph2": "To make future purchases even faster, you will have the option of creating an acocount during checkout.",
-    "continueGuestBtn": "Continue As Guest",
-    "messages": [
-      {
-        "type": "info",
-        "message": "Info!"
-      },
-      {
-        "type": "danger",
-        "message": "Danger!"
-      }
-    ]
+    "continueGuestBtn": "Continue As Guest"
   },
   "meta": {
     "assetsPath": "../../assets/",
@@ -106,6 +96,9 @@
       },
       "addToWishlist": {
         "href": "wishlist.html"
+      },
+      "reserveInStore": {
+        "href": "reserve-in-store.html"
       },
       "addReview": {
         "href": "pdp.html"

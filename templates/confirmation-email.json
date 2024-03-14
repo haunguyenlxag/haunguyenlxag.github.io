@@ -46,7 +46,7 @@
     },
     "order": [
       {
-        "image": "../../assets/img/blue-shirt-da31fc9730a2d3bbb323b6bd68aeb6d6.jpg",
+        "image": "../../assets/img/blue-shirt-884ebc2139436660cabd4269b9db587c.jpg",
         "nameHeadline": "Enditatem Product Name",
         "nameSubline": "Optional Line Two",
         "sku": "Sunrise #SUN123456",
@@ -62,7 +62,7 @@
         "totalPrice": "100,00 €"
       },
       {
-        "image": "../../assets/img/blue-shirt-da31fc9730a2d3bbb323b6bd68aeb6d6.jpg",
+        "image": "../../assets/img/blue-shirt-884ebc2139436660cabd4269b9db587c.jpg",
         "nameHeadline": "Enditatem Product Name",
         "nameSubline": "Optional Line Two",
         "sku": "Sunrise #SUN123456",
@@ -177,6 +177,9 @@
       },
       "addToWishlist": {
         "href": "wishlist.html"
+      },
+      "reserveInStore": {
+        "href": "reserve-in-store.html"
       },
       "addReview": {
         "href": "pdp.html"

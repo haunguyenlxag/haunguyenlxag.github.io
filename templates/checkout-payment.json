@@ -13,13 +13,13 @@
         "list": [
           {
             "label": "Credit Card",
-            "image": "img/payment-option-card-a89723bb7792b24fae8e78c3b9130bcb.gif",
+            "image": "img/payment-option-card-209a1b9058b6393e0d83942a57196642.gif",
             "value": "credit-card",
             "selected": false
           },
           {
             "label": "PayPal",
-            "image": "img/payment-option-paypal-224f861928062b2c7211dac7dd835c5e.png",
+            "image": "img/payment-option-paypal-4a4b7e95d3ea662db35b2191d11a8891.png",
             "value": "paypal",
             "selected": false
           },
@@ -126,7 +126,7 @@
             "totalPrice": "49,00 €",
             "variant": {
               "name": "Enditatem Product Name Optional very long line two",
-              "image": "../../assets/img/blue-jacket-329d4682d1aa7ae44b6519057cc0d17c.jpg",
+              "image": "../../assets/img/blue-jacket-8c655360673c6e08c5123722caa605d9.jpg",
               "url": "pdp.html",
               "sku": "Sunrise #SUN123456",
               "priceOld": "100,00 €",
@@ -151,7 +151,7 @@
             "totalPrice": "49,00 €",
             "variant": {
               "name": "Enditatem Product Name Optional very long line two",
-              "image": "../../assets/img/blue-jacket-329d4682d1aa7ae44b6519057cc0d17c.jpg",
+              "image": "../../assets/img/blue-jacket-8c655360673c6e08c5123722caa605d9.jpg",
               "url": "pdp.html",
               "sku": "Sunrise #SUN123456",
               "priceOld": "100,00 €",
@@ -176,7 +176,7 @@
             "totalPrice": "49,00 €",
             "variant": {
               "name": "Enditatem Product Name Optional very long line two",
-              "image": "../../assets/img/blue-jacket-329d4682d1aa7ae44b6519057cc0d17c.jpg",
+              "image": "../../assets/img/blue-jacket-8c655360673c6e08c5123722caa605d9.jpg",
               "url": "pdp.html",
               "sku": "Sunrise #SUN123456",
               "priceOld": "100,00 €",
@@ -237,32 +237,8 @@
         "card": "Visa",
         "number": "**** **** **** **56",
         "date": "09.18"
-      },
-      "discountCodes": [
-        {
-          "name": "Sunrise",
-          "id": "1234"
-        },
-        {
-          "name": "Sunny",
-          "id": "12345"
-        },
-        {
-          "name": "Sunny No",
-          "id": "12345"
-        }
-      ]
-    },
-    "messages": [
-      {
-        "type": "danger",
-        "message": "Danger!"
-      },
-      {
-        "type": "success",
-        "message": "Success!"
       }
-    ]
+    }
   },
   "meta": {
     "assetsPath": "../../assets/",
@@ -344,6 +320,9 @@
       },
       "addToWishlist": {
         "href": "wishlist.html"
+      },
+      "reserveInStore": {
+        "href": "reserve-in-store.html"
       },
       "addReview": {
         "href": "pdp.html"

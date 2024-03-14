@@ -44,11 +44,11 @@
             </div>
             <div class="quickview-wishlist-row">
               <ul class="list-inline">
-                <li {{#if wishlist}}class="hidden"{{/if}}>
+                <li>
                   {{> catalog/add-to-wishlist-btn}}
                 </li>
                 <li>
-                  {{> catalog/product-availability availability=product.availability}}
+                  {{> catalog/product-availability}}
                 </li>
               </ul>
             </div>
